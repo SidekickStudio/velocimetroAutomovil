@@ -48,7 +48,7 @@ class Auto{
         case .apagado:        self.velocidad = .velocidadBaja
         case .velocidadBaja:  self.velocidad = .velocidadMedia
         case .velocidadMedia: self.velocidad = .velocidadAlta
-        case .velocidadAlta:  self.velocidad = .apagado
+        case .velocidadAlta:  self.velocidad = .velocidadMedia
         }
         
         return (currentVelocidad.rawValue, currentVelocidad.description)
